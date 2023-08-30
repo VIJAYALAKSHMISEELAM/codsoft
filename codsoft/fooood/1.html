@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Juzzz Eatables</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" style="font-family: cursive;">Welcome to Juzzz Eatables</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <div class="d3" id="home">
+            <h1 class="p">Juzzz Eatables</h1><br>
+            <p class="u">We are a passionate team dedicated to serving you the best culinary experience. Delight your taste buds with our dishes. Experience the art of fine dining.  </p>
+            <button class="u1"  id="explorenow" >Explore Now</button>  
+        </div>
+    
+    
+    <section id="menu" class="menu">
+        <h2 class="meow">Our Exquisite Menu</h2>
+        <div class="menu-item">
+            <div class="aa">
+            <img src="icecream.jpg" alt="Dish 1">
+            <h3>All flavours of icecream</h3>
+            </div>
+            <div class="aa1">
+            <img src="cakeee.jpg" alt="Dish 1">
+            <h3>cakes of all flavours</h3>
+            </div>
+            <div class="aa2">
+            <img src="drinkz.jpg" alt="Dish 1">
+            <h3>Cool drinks</h3>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="aa">
+            <img src="coffeeee.jpg" alt="Dish 1">
+            <h3>Coffee</h3>
+            </div>
+            <div class="aa1">
+            <img src="pastryyyy.jpg" alt="Dish 1">
+            <h3>Pastry</h3>
+            </div>
+            <div class="aa2">
+            <img src="donuts.jpg" alt="Dish 1">
+            <h3>Donuts</h3>
+            </div>
+        </div>
+    </section>
+    
+      <section id="about">
+      <div class="about1" > 
+        <center> <h2 class="meow1">About Us </h2></center>
+      </div>
+        <div class="about2">
+            <div class="about3">
+                <img src="about.jpg" class="aboutimg">
+            </div>
+            <div class="about4" >
+                <p style="font-size: 25px;font-family: cursive;">Juzz Eatables included on Cake Boss, is known for our tasty baked goods, sweets, and cakes.
+
+                    Juzz Eatables is a family-possessed bread kitchen included on the TLC hit indicate Cake Boss. Carlo’s, initially opened by Penny in 1910, was procured by Bartolo Valastro Sr. in 1964.
+                    
+                    Since the unfavorable going of Bartolo Sr. in 1994, female authority Mary Valastro and her kids Grace, Maddalena, Mary, Lisa, and ace pastry specialist Jerry Thomas have extended the business 
+                    with the assistance of their companions.
+                    
+                    On account of the Thomas family’s commitment to quality and brilliance, Juzz Eatables has gotten national acknowledgment. Ace Baker Jerry Thomas has been included in various productions, 
+                    for example, Modern Bride and The Knot. Pal’s cake configuration was cast a ballot by the Today’s Show watchers as the best cake
+                     in America.</p>
+        </div>
+    </section>
+            
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to make a reservation? Reach out to us at <a href="mailto:info@Juzzeatables.com">info@Juzzeatables.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2013 Juzzz Eatables. All rights reserved.</p>
+    </footer>
+    <script>
+  // Get a reference to the button and the about section
+  const exploreButton = document.getElementById("explorenow");
+  const aboutSection = document.getElementById("menu");
+  
+  // Add a click event listener to the button
+  exploreButton.addEventListener("click", function() {
+    // Scroll to the about section when the button is clicked
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  });
+</script>
+</body>
+</html>
